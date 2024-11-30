@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="logo.ico">
+
+</head>
+<body>
+  <div class="container">
+    <!-- Partie gauche -->
+    <aside class="sidebar">
+        <div>
+            <img class="logo" src="logo.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Porftolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+    <header class="header">
+        <nav>
+          <div class="nav-container">
+            <h1 class="logo">Zydex</h1>
+            <button class="hamburger" aria-label="Menu">
+              &#9776; <!-- Icon hamburger -->
+            </button>
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+
+
+    <!-- Partie droite -->
+    <main class="content">
+      <section id="home" class="home">
+        <div class="home-left">
+            <h1 class="home-title">Hi, my name is Zydex</h1>
+            <h3 class="home-subtitle">Innovate, Inspire, Create</h3>
+            <p class="home-description">
+                Discover endless possibilities to showcase your projects and ideas. Join our community and take your vision to the next level.
+            </p>
+            <a href="#about"><button class="home-btn">Explore Now</button></a>
+        </div>
+        <div class="home-right">
+            <img src="Multitasker sit.png" alt="Hero Image" class="home-image">
+        </div>
+      </section>
+
+
+
+
+    <section id="about" class="section">
+      <div class="about-container">
+          <!-- Partie supérieure : Titre, Sous-titre et Description -->
+          <div class="about-header">
+              <h1>About Me</h1>
+              <h2>A short introduction</h2>
+              <p>
+                I am a Front end web-sites developer, from Morroco, I can speak 3 languages : English, French and Arabaic, I am passionate about all things that have relation about computer sciences, like you saw in my services, that what i am able to do for now, i started this dommaine about 2 years ago, i am exciting to keep practicing to improuve my skills.
+              </p>
+          </div>
+  
+          <!-- Partie inférieure : Informations brèves et Stats -->
+          <div class="about-content">
+              <!-- Colonne gauche : Informations brèves -->
+              <div class="info-section">
+                  <ul>
+                      <li><strong>Date of Birth:</strong> Spetember 14, 2009</li>
+                      <li><strong>Age:</strong> 15</li>
+                      <li><strong>Location:</strong> Morocco</li>
+                      <li><strong>Occupation:</strong> Web Developer</li>
+                      <li><strong>Email:</strong> benadiridriss2009@gmail.com</li>
+                  </ul>
+                  <div class="button-group">
+                      <a href="#contact"><button class="btn btn-secondary">Contact Me</button></a>
+                  </div>
+              </div>
+  
+              <!-- Colonne droite : Stats -->
+              <div class="stats-section">
+                  <div class="stat">
+                      <span>HTML</span>
+                      <div class="progress-bar">
+                          <div class="progress" style="width: 30%;"></div>
+                      </div>
+                  </div>
+                  <div class="stat">
+                      <span>CSS</span>
+                      <div class="progress-bar">
+                          <div class="progress" style="width: 50%;"></div>
+                      </div>
+                  </div>
+                  <div class="stat">
+                      <span>JavaScript</span>
+                      <div class="progress-bar">
+                          <div class="progress" style="width: 20%;"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+
+
+  
+
+
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-container">
+      <!-- Premier rang de cartes -->
+      <div class="card">
+        <img src="logo création.gif" alt="Service 1" class="card-img">
+        <h3 class="card-title">Graphic Design</h3>
+        <p class="card-description">Creation of logos, banners, and visuals for your projects.</p>
+        <i class="card-icon fas fa-paint-brush"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+  
+      <div class="card">
+        <img src="programmer.gif" alt="Service 2" class="card-img">
+        <h3 class="card-title">Web developper</h3>
+        <p class="card-description">Creation of professional, dynamic and interactive websites.</p>
+        <i class="card-icon fas fa-code"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+  
+      <div class="card">
+        <img src="editing.gif" alt="Service 3" class="card-img">
+        <h3 class="card-title">Video Editing</h3>
+        <p class="card-description">Editing and editing videos for various types of content.</p>
+        <i class="card-icon fas fa-video"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+  
+      <!-- Deuxième rang de cartes -->
+      <div class="card">
+        <img src="power point.gif" alt="Service 4" class="card-img">
+        <h3 class="card-title">Microsoft office</h3>
+        <p class="card-description">Word / Power point / Excel</p>
+        <i class="card-icon fas fa-search"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+  
+      <div class="card">
+        <img src="giphy.gif" alt="Service 5" class="card-img">
+        <h3 class="card-title">Animation and Motion Design</h3>
+        <p class="card-description">Creation of motion design animations and videos for dynamic rendering.</p>
+        <i class="card-icon fas fa-film"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+  
+      <div class="card">
+        <img src="me.gif" alt="Service 6" class="card-img">
+        <h3 class="card-title">IT Consulting</h3>
+        <p class="card-description">Tips to optimize your IT systems and improve your productivity.</p>
+        <i class="card-icon fas fa-laptop"></i> <!-- Exemple d'icône FontAwesome -->
+      </div>
+    </div>
+
+
+
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+          <!-- Premier rang -->
+          <div class="card">
+            <img src="personnal2.png" alt="Projet 1" class="card-img"><a href="https://idriss2009.github.io/Zydex_2.0/">View</a>
+          </div>
+          <div class="card">
+            <img src="personnal1.png" alt="Projet 2" class="card-img"><a href="https://idriss2009.github.io/Zydex/">View</a>
+          </div>
+      
+          <!-- Deuxième rang -->
+          <div class="card">
+            <img src="personnal3.png" alt="Projet 3" class="card-img"><p>(Uncompleted)</p>
+          </div>
+          <div class="card">
+            <img src="personnal4.png" alt="Projet 4" class="card-img"><p>(Uncompleted)</p>
+          </div>
+        </div>
+      </section>
+
+      
+
+
+
+      <section id="contact">
+        <h2>Contact-me</h2>
+        <p class="contact-subtitle">Let's stay in touch! Here's how to reach me:</p>
+        <div class="contact-cards">
+          <div class="card">
+            <i class="fas fa-phone-alt"></i>
+            <p>+212 7 64 54 08 60</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>El Jadida, Maroc</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-envelope"></i>
+            <p>benadiridriss2009@gmail.com</p>
+          </div>
+          <div class="card">
+            <i class="fas fa-globe"></i>
+            <p>www.monportfolio.com</p>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        <ul class="social-links">
+          <li><a href="https://t.me/+AJZMKPXCADU2Mzc0"><i class="fab fa-telegram"></i></a></li>
+          <li><a href="https://www.instagram.com/zydex_az/?__pwa=1"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com/IDRISS2009"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </footer>
+      
+</main>
+</div>
+
+
+
+
+
+
+<script src="script.js.js"></script>
+</body>
+</html>
